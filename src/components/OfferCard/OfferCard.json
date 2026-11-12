@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "name": "Starter",
+    "billing": "Free",
+    "forWhom": "For individuals who want to explore AI assistance",
+    "features": [
+      "Access to Claude AI",
+      "Basic AI conversations",
+      "Writing and content generation",
+      "Code assistance",
+      "Limited usage"
+    ],
+    "buttonText": "Get Started",
+    "highlighted": false
+  },
+  {
+    "id": 2,
+    "name": "Pro",
+    "price": 20,
+    "currency": "$",
+    "billing": "/month",
+    "forWhom": "For professionals, students, and developers",
+    "features": [
+      "Everything in Free",
+      "Higher usage limits",
+      "Access to advanced Claude models",
+      "Projects and knowledge management",
+      "Extended thinking capabilities",
+      "Priority access during peak times"
+    ],
+    "buttonText": "Upgrade to Pro",
+    "highlighted": true,
+    "badge": "Most Popular",
+    "Recommend": "Recommended"
+  },
+  {
+    "id": 3,
+    "name": "Max",
+    "price": 100,
+    "currency": "$",
+    "billing": "/month",
+    "forWhom": "For power users and professionals with intensive AI workloads",
+    "features": [
+      "Everything in Pro",
+      "5x higher usage than Pro",
+      "Access to advanced Claude capabilities",
+      "Higher output limits",
+      "Priority access to new features",
+      "Designed for intensive daily workflows"
+    ],
+    "buttonText": "Get Max",
+    "highlighted": false
+  }
+]

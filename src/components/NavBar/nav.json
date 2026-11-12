@@ -1,0 +1,27 @@
+[
+  {
+    "id": 2,
+    "name": "Home",
+    "path": "#home"
+  },
+  {
+    "id": 3,
+    "name": "Recharts",
+    "path": "#recharts"
+  },
+  {
+    "id": 4,
+    "name": "Pricing",
+    "path": "#pricing"
+  },
+  {
+    "id": 5,
+    "name": "Axios",
+    "path": "#axios"
+  },
+  {
+    "id": 6,
+    "name": "Contact",
+    "path": "/contact"
+  }
+]
