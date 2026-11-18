@@ -23,11 +23,11 @@ const Card = ({ card }: cardProps) => {
       className={`bg-white text-rose-400 p-6 shadow-2xl rounded-4xl font-semibold flex flex-col gap-4 ${card.highlighted && "border-6 border-rose-300"} hover:scale-105 transition-all duration-500`}
     >
       {card.highlighted && (
-        <div className="flex justify-between text-gray-50 font-mono gap-2">
-          <span className="bg-yellow-400 p-2 text-xl rounded-3xl w-fit hover:scale-105 transition-all duration-500 flex items-center">
+        <div className="sm:flex text-gray-50 font-mono gap-2">
+          <span className="sm:flex-1 justify-center bg-yellow-400 p-2 text-xl rounded-3xl hover:scale-105 transition-all duration-500 flex items-center mb-3 sm:mb-0">
             {card.badge}
           </span>
-          <span className="bg-green-400 p-2 text-xl rounded-3xl w-fit hover:scale-105 transition-all duration-500 flex items-center">
+          <span className="sm:flex-1 justify-center bg-green-400 p-2 text-xl rounded-3xl hover:scale-105 transition-all duration-500 flex items-center">
             {card.Recommend}
           </span>
         </div>
@@ -36,11 +36,13 @@ const Card = ({ card }: cardProps) => {
         {card.name}
       </h3>
       <p className="font-mono text-xl text-gray-400">{card.forWhom}</p>
-      <h2 className="font-serif font-bold text-5xl">
-        {card.currency}
-        {card.price}
+      <div className="sm:flex font-serif font-bold text-5xl">
+        <div>
+          {card.currency}
+          {card.price}
+        </div>
         {card.billing}
-      </h2>
+      </div>
       <ul className="flex flex-1 flex-col gap-4 font-mono bg-rose-400 p-4 rounded-2xl text-white">
         {card.features.map((feature, index) => (
           <li key={index} className="flex gap-4">
